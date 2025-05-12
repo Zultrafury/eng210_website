@@ -5,3 +5,10 @@
 .textstyle {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.expletus-sans {
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
