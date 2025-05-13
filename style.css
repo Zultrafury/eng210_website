@@ -71,7 +71,7 @@
     width: 80vw;
     height: 20vw;
     vertical-align: center;
-    background-color: rgb(209, 242, 255);
+    background-color: rgb(152, 205, 226);
     box-shadow: 0 0.25vw 0.25vw rgba(0, 0, 0, 0.75);
     img {
         float: left;
@@ -97,13 +97,14 @@
 }
 
 .projectdiv {
+    color: black;
     padding: 1vw 0 1vw;
     background-color: rgb(82, 199, 245);
-    background: linear-gradient(90deg,rgb(12, 120, 163) 0%, rgb(82, 199, 245) 15%, rgb(82, 199, 245) 85%, rgb(12, 120, 163) 100%);
+    background: linear-gradient(90deg,hsl(197, 25%, 34%) 0%, hsl(197, 25%, 64%) 15%, hsl(197, 25%, 64%) 85%, hsl(197, 25%, 34%) 100%);
 }
 
 footer {
-    padding: 0 0 5vw 5vw;
+    padding: 0 0 0 5vw;
     font-style: italic;
     font-weight: bold;
     font-size: 1vw;
@@ -112,11 +113,12 @@ footer {
 .expletus-sans {
     font-family: "Expletus Sans", sans-serif;
     :visited, :link {
-        color: blue;
+        color: rgb(65, 65, 243);
     }
+    color: rgb(167, 213, 231);
     background-color: rgb(209, 242, 255);
-    background: linear-gradient(0deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
-    text-shadow: 0 0.1vw 0.25vw rgba(0, 0, 0, 0.5);
+    background: linear-gradient(0deg,rgb(121, 121, 121) 30%, rgb(34, 36, 37) 100%);
+    text-shadow: 0 0.1vw 0.25vw rgba(0, 0, 0, 0.75);
     animation: fadein 1s ease-in-out;
 }
 
