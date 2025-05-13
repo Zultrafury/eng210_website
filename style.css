@@ -128,21 +128,3 @@ footer {
         transform:scaleX(.95);
     }
 }
-
-@keyframes rotation {
-    0% {
-        background: linear-gradient(0deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
-    }
-    25% {
-        background: linear-gradient(90deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
-    }
-    50% {
-        background: linear-gradient(180deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
-    }
-    75% {
-        background: linear-gradient(270deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
-    }
-    100% {
-        background: linear-gradient(360deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
-    }
-}
