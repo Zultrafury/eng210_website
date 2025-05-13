@@ -27,8 +27,9 @@
         height: 15vw;
         width: 15vw;
         object-fit: cover;
-        border: 0.5vw black solid;
+        border: 0.5vw rgb(0, 138, 192) solid;
         border-radius: 3vw;
+        box-shadow: 0 0.25vw 0.25vw rgba(0, 0, 0, 0.75);
     }
 }
 
@@ -65,12 +66,13 @@
 .project {
     margin: auto;
     margin-bottom: 5vw;
-    border: 0.5vw black solid;
+    border: 0.5vw rgb(0, 138, 192) solid;
     border-radius: 3vw;
     width: 80vw;
     height: 20vw;
     vertical-align: center;
-    background-color: white;
+    background-color: rgb(209, 242, 255);
+    box-shadow: 0 0.25vw 0.25vw rgba(0, 0, 0, 0.75);
     img {
         float: left;
         margin-top: 2.5vw;
@@ -79,7 +81,7 @@
         height: 15vw;
         width: 25vw;
         object-fit: cover;
-        border: 0.5vw black solid;
+        border: 0.5vw rgb(0, 138, 192) solid;
         border-radius: 3vw;
     }
     h3 {
@@ -94,6 +96,12 @@
     }
 }
 
+.projectdiv {
+    padding: 1vw 0 1vw;
+    background-color: rgb(82, 199, 245);
+    background: linear-gradient(90deg,rgb(12, 120, 163) 0%, rgb(82, 199, 245) 15%, rgb(82, 199, 245) 85%, rgb(12, 120, 163) 100%);
+}
+
 footer {
     padding: 0 0 5vw 5vw;
     font-style: italic;
@@ -103,8 +111,36 @@ footer {
 
 .expletus-sans {
     font-family: "Expletus Sans", sans-serif;
-    :visited {
+    :visited, :link {
         color: blue;
     }
-    background-color: rgb(182, 245, 182);
+    background-color: rgb(209, 242, 255);
+    background: linear-gradient(0deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
+    text-shadow: 0 0.1vw 0.25vw rgba(0, 0, 0, 0.5);
+    animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform:scaleX(.95);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        background: linear-gradient(0deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
+    }
+    25% {
+        background: linear-gradient(90deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
+    }
+    50% {
+        background: linear-gradient(180deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
+    }
+    75% {
+        background: linear-gradient(270deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
+    }
+    100% {
+        background: linear-gradient(360deg,rgb(209, 242, 255) 0%, rgb(96, 198, 238) 100%);
+    }
 }
